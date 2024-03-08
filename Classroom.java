@@ -7,34 +7,34 @@ public class Classroom {
         list.set(idx2, temp);
     }
     public static void main(String[] args) {
-        // ArrayList<Integer> list = new ArrayList<>();
-        // list.add(1);
-        // list.add(2);
-        // list.add(3);
-        // list.add(4);
-        // list.add(5);
-        //list.add(2,9);
-        //System.out.println(list);
-        // //get operation
-        // int element  = list.get(2);
-        // System.out.println(element);
-        // //remove operation
-        // list.remove(3);
-        // System.out.println(list);
-        // //set element at index
-        // list.set(3, 10);
-        // System.out.println(list);
-        // //contains element
-        // System.out.println(list.contains(3));
-        // System.out.println(list.contains(10));
-        //size of arraylist
-        // System.out.println(list.size());
-        // for(int i=0;i<list.size();i++){
-        //     System.out.print(list.get(i)+" ");
-        // }
-        // System.out.println();
-        //print reverse of an arraylist 
-        /* 
+        ArrayList<Integer> list = new ArrayList<>();
+         list.add(1);
+         list.add(2);
+         list.add(3);
+         list.add(4);
+         list.add(5);
+        list.add(2,9);
+        System.out.println(list);
+         //get operation
+         int element  = list.get(2);
+         System.out.println(element);
+         //remove operation
+         list.remove(3);
+         System.out.println(list);
+         //set element at index
+         list.set(3, 10);
+         System.out.println(list);
+         //contains element
+         System.out.println(list.contains(3));
+         System.out.println(list.contains(10));
+         size of arraylist
+         System.out.println(list.size());
+         for(int i=0;i<list.size();i++){
+             System.out.print(list.get(i)+" ");
+         }
+         System.out.println();
+        print reverse of an arraylist 
+         
         ArrayList<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
@@ -45,10 +45,10 @@ public class Classroom {
             System.out.print(list.get(i)+" ");
         }
         System.out.println();
-        */
+        
 
         //find maximum in an arraylist
-        /* 
+         
         ArrayList<Integer> list = new ArrayList<>();
         list.add(2);
         list.add(5);
@@ -62,10 +62,10 @@ public class Classroom {
             }
         }
         System.out.println("maximum element ="+max);
-        */
+        
 
         //swap 2 number
-        /* 
+         
         ArrayList<Integer>list = new ArrayList<>();
         list.add(2);
         list.add(5);
@@ -76,10 +76,10 @@ public class Classroom {
         System.out.println(list);
         swap(list, idx1, idx2);
         System.out.println(list);
-        */
+        
 
         //sorted arraylist
-        /* 
+         
         ArrayList<Integer>list = new ArrayList<>();
         list.add(2);
         list.add(5);
@@ -92,7 +92,7 @@ public class Classroom {
         //desending
         Collections.sort(list,Collections.reverseOrder());
         System.out.println(list);
-        */
+        
 
         //multidimensional arraylist
         ArrayList<ArrayList<Integer>> mainList = new ArrayList<>();
