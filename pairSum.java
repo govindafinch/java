@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class pairSum {
     //pair sum of given arraylist [1,2,3,4,5,6] and target =5;
-    /* 
+    
     public static boolean printPairSum(ArrayList<Integer>list,int target){
         for(int i=0;i<list.size();i++){
             for(int j=i+1;j<list.size();j++){
@@ -13,7 +13,8 @@ public class pairSum {
         }
         return false;
     }
-    */
+
+    
     //two pointer approach
     public static boolean printPairSum(ArrayList<Integer>list,int target){
         int lp =0;
