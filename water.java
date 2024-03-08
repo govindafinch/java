@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class water {
     //container with most water O(n^2)
-    /* 
+     
     public static int storeWater(ArrayList<Integer>height){
         int maxWater = 0;
         for(int i=0; i<height.size(); i++){
@@ -15,7 +15,7 @@ public class water {
         }
         return maxWater;
     }
-    */
+    
     //two pointer approach O(n)
     public static int storeWater(ArrayList<Integer>height){
         int maxWater = 0;
